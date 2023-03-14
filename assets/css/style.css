@@ -600,18 +600,18 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  /* background: rgba(20, 157, 221, 0.75); */
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+/* .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
-}
+} */
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -624,6 +624,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+  top: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1132,4 +1133,8 @@ button.netlify_button:hover {
   background-color: #971017;
   transition: 0.4s ease-in-out;
 
+}
+
+.bx-link:before {
+  content: "" !important;
 }
