@@ -569,6 +569,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -603,6 +605,7 @@ section {
   /* background: rgba(20, 157, 221, 0.75); */
   transition: 0.3s;
   width: 100%;
+
 }
 
 /* .portfolio .portfolio-wrap .portfolio-links a:hover {
